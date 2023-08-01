@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('r.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 30px;
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+
+/*----------------------------testimonial------------------------------------*/
+
+
+.testimonial{
+
+    padding-top: 100px;
+
+}
+
+.testimonial .col-3{
+
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgb(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+}
+
+.testimonial .col-3 img{
+
+    width: 50px;
+    margin: 20px;
+    border-radius: 50%;
+
+}
+
+.testimonial .col-3:hover{
+
+    transform: translateY(-10px);
+
+}
+
+.fa.fa-quote-left{
+
+    font-size: 34px;
+    color: #ff523b;
+
+}
+
+.col-3 p{
+
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.testimonial .col-3 h3{
+
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+
+}
+
+
+/*---------------------------------------------brands--------------------------------------------*/
+
+
+.about-us{
+
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.about-col{
+
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+
+.about-col img{
+
+    width: 120px;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+.about-col p{
+
+    padding: 15px 0 25px;
+
+}
+
+.about-col h1{
+
+    padding-top: 0;
+    font-size: 30px;
+
+}
+.s{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    
+}
+
+
+.hero-btn{
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px so;
+
+}
+
+.red-btn{
+
+    border: 1px solid #f44336;
+    background: #f44336;
+    color:#f44336;
+  
+
+}
+
+
+
+.categories{
+
+    margin: 70px 0;
+
+}
+
+.col-3{
+
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+
+    width: 100%;
+}
+
+.small-container{
+
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+
+.h{
+    text-align: center;
+}
+  
+
+.footer{
+
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.footer a{
+    background-color:black;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+      
+    }
+  }
